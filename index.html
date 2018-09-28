@@ -22,9 +22,60 @@
     <div class="wrapper">
         <nav id="sidebar">
             <div class="sidebar-header">
-                
+                <h3>Pige Dice</h3>
+                <strong>PD</strong>
             </div>
+            <ul>
+                <li class="active">
+                    <a href ="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Easy Level</a>
+                        </li>
+                        <li>
+                            <a href="#">Hard Level</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-briefcase"></i>
+                        About
+                    </a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria expanded="false" class ="dropdown-toggle">
+                        <i class="fas fa-copy"></i>
+                        Game Tutorial
+                    </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                       <li>
+                           <a href="#">How it works</a>
+                       </li>
+                       <li>
+                           <a href="#">What you need to know</a>
+                       </li>
+                    </ul>
+                </li>
+            </ul>
         </nav>
+        <div id="pagecontent">
+            <nav class="navbar navbar-expand-lg-navbar-light bg-light">
+                <div class="container-fluid">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span> Sidebar</span>
+                    </button>
+                </div>
+
+
+            </nav>
+        </div>
     </div>
 
 
