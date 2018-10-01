@@ -256,8 +256,8 @@ i {
 }
 
 #sidebarCollapse.active {
-color: aqua;
-background: rgb(252, 169, 169);
+    color:white;
+    background: #7386D5;
 
 }
 
